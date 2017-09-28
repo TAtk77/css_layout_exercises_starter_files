@@ -1,0 +1,52 @@
+.container {
+  max-width: 800px;
+  height: 500px;
+  white-space: nowrap;
+  font-size: 0;
+  position: absolute;
+}
+
+.top_box {
+  width: 800px;
+  height: 200px;
+}
+
+.container_one {
+  width: 50%;
+  height: 200px;
+  display: inline-block;
+  background-color: green;
+}
+
+.container_two {
+  width: 50%;
+  height: 200px;
+  display: inline-block;
+  position: relative;
+  background-color: blue;
+}
+
+.bottom_box {
+  width: 800px;
+  height: 300px;
+}
+
+.container_three {
+  width: 33.33%;
+  height: 300px;
+  display: inline-block;  
+  background-color: grey;
+}
+
+.container_four {
+  width: 33.33%;
+  height: 300px;
+  display: inline-block;  
+  background-color: black;
+}
+.container_five {
+  width: 33.33%;
+  height: 300px;
+  display: inline-block;  
+  background-color: orange;
+}
